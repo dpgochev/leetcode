@@ -1,12 +1,14 @@
-# O(nlgn)
+""" Solution has time complexity of O(nlgn)"""
+
 from typing import List
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         nums_sorted = nums.copy()
-        # O(nlgn) goes here
+        # O(nlgn) best case scenario for sorting
         nums_sorted.sort()
         
-        # This should be O(n) at the worst case
+        # O(n)
         while True:
             nums_len = len(nums_sorted)
             
