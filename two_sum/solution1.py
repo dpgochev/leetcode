@@ -1,7 +1,5 @@
-"""" 
-Solution has time complexity of O(n^2)
+"""" Solution has time complexity of O(n^2)"""
 
-"""
 from typing import List
 
 class Solution:
